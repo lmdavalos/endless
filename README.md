@@ -1,9 +1,3 @@
-1 June 2021
-
-Direct all requests to Liliana M Davalos liliana.davalos@stonybrook.edu
-
-These scripts and data reproduce the results of Endless Frontier: Pasture Expansion and Conflict Promoted by Coca and Fumigation Explain Deforestation in Colombia. 
-
 Required R packages:
 dplyr
 sp
