@@ -1,0 +1,29 @@
+res,cov,category,sig
+Coca cultivation,Aerial fumigation,removal,pos
+Coca cultivation,Area,constant,pos
+Coca cultivation,rcoca cultivation,growth,pos
+Coca cultivation,rcropland,growth,NS_pos
+Coca cultivation,Forest cover,land use,pos
+Coca cultivation,rgrassland,growth,pos
+Coca cultivation,Grassland cover,land use,neg
+Coca cultivation,Infrastructure spending,social,neg
+Coca cultivation,Manual eradication,removal,pos
+Coca cultivation,Rural proportion,social,pos
+Coca cultivation,Cropland cover,land use,neg
+Coca cultivation,rurban population,social,pos
+Conflict,Aerial fumigation,removal,pos
+Conflict,Cropland cover,land use,pos
+Conflict,Coca cultivation,land use,pos
+Conflict,rcoca cultivation,growth,NS_neg
+Conflict,Forest cover,land use,pos
+Conflict,Rural population,social,pos
+Conflict,Rural proportion,social,neg
+Conflict,rurban population,social,neg
+Conflict,Manual eradication,removal,NS_neg
+Forest growth,Area,constant,NS_pos
+Forest growth,Conflict,social,neg
+Forest growth,Forest cover,land use,neg
+Forest growth,rgrassland,growth,neg
+Forest growth,Grassland cover,land use,pos
+Forest growth,Infrastructure spending,social,NS_pos
+Forest growth,Cropland cover,land use,NS_pos
