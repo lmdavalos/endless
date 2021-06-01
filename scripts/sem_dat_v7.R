@@ -33,7 +33,7 @@ a17<-read.csv("a2017.csv")
 forest<-rbind(a01,a02,a03,a04,a05,a06,a07,a08,a09,a10,a11,a12,a13,a14,a15,a16,a17)
 
 ##the name of the MPIOS column in forest is super weird in Clara's R. You can comment this line out if it's not weird in yours. 
-#names(forest)[names(forest) == "ï..MPIOS"] <- "MPIOS"
+#names(forest)[names(forest) == "Ã¯..MPIOS"] <- "MPIOS"
 
 ##assign year
 forest$year<-c(rep(2001, 1118), rep(2002, 1118), rep(2003, 1118), rep(2004, 1118), rep(2005, 1118), rep(2006, 1118), rep(2007, 1118), rep(2008, 1118), rep(2009, 1118), rep(2010, 1118), rep(2011, 1118), rep(2012, 1118), rep(2013, 1118), rep(2014, 1118), rep(2015, 1118), rep(2016, 1118), rep(2017, 1118) )
