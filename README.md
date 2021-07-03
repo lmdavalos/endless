@@ -1,6 +1,5 @@
-"Endless Frontier: Pasture Expansion and Conflict Promoted by Coca and Fumigation Explain Deforestation in Colombia"
+# "Endless Frontier: Pasture Expansion and Conflict Promoted by Coca and Fumigation Explain Deforestation in Colombia"
 
-README
 
 Required R packages:
 dplyr
