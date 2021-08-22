@@ -1,4 +1,4 @@
-# "Endless Frontier: Pasture Expansion and Conflict Promoted by Coca and Fumigation Explain Deforestation in Colombia"
+# "Endless, Grassy Frontier: Pasture Expansion and Conflict Promoted by Coca and Fumigation Explain Deforestation in Colombia"
 
 
 Required R packages:
@@ -16,7 +16,6 @@ lme4
 brms
 MCMCvis
 bayesplot
-gganimate
 plotKML
 sf
 transformr
@@ -39,6 +38,6 @@ Matrix
 
 6) plot_summaries_v9.R, plot_smooth_v4.R, plot_conditional_v5.R use already generated RData files to plot coefficients, GMRF smooths, and conditional effects.
 
-7) loo_pit_plo_v9.R generates and plots loo-pit simulations and requires both models to be compared.
+7) loo_pit_plo_v10.R generates and plots loo-pit simulations and requires both models to be compared.
 
-8) network1_v3.R makes a network plot based on cov_brms_v3.csv, which was compiled by hand. The colors were adjusted by hand.
+8) network1_v3.R makes a network plot based on cov_brms_v3.csv, which was compiled by hand. Three plots and arrow colors were adjusted by hand.
