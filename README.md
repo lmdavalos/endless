@@ -2,6 +2,7 @@
 
 
 Required R packages:
+reshape2
 dplyr
 sp
 spdep
@@ -10,18 +11,18 @@ surveillance
 nlme
 reshape2
 ggplot2
-scales
-piecewiseSEM
-lme4
 brms
-MCMCvis
-bayesplot
+scales
+gganimate
 plotKML
 sf
 transformr
 tidyverse
 gpclib
 plyr
+ggthemes
+MCMCvis
+bayesplot
 bipartite
 viridis
 Matrix
