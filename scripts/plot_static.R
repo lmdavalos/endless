@@ -3,8 +3,8 @@ library(reshape2)
 library(ggplot2)
 library(scales)
 library(tidyverse)
-library(gpclib)
 library(plyr)
+library(ggthemes)
 
 ##remove prior data
 rm(list=ls()) 
@@ -60,10 +60,10 @@ map_df<-merge(map_df, reg, by='MPIOS')
 map_df<-map_df[order(map_df$group),]
 
 ##make plot
-p4<-ggplot(data = map_df) + geom_polygon(aes(x = long, y = lat, group = group, fill = Region)) + theme_void() + scale_fill_viridis_d(option="B", direction = -1, begin = 0.25) 
+p4<-ggplot(data = map_df) + geom_polygon(aes(x = long, y = lat, group = group, fill = Region)) + theme_map() + scale_fill_viridis_d(option="B", direction = -1, begin = 0.25) 
 
 ##save
-ggsave("basemap_v1.pdf", h = 4, w = 4.5)
+ggsave("basemap_v1.pdf", h = 6.5, w = 6)
 
 ##remove stuff
 rm(list=setdiff(ls(), c("coc_df", "con_df", "for_df", "map_df", "p1", "p2", "p3", "p4")))
