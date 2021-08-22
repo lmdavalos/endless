@@ -67,22 +67,22 @@ theme_set(theme_minimal())
 ##forget loo, go with ppcheck
 
 ##forget loo, go with ppcheck
-p11<-pp_check(snn_mrf_brms, resp="betfor", type="loo_pit") + ggtitle("rForest, student")
+p11<-pp_check(snn_mrf_brms, resp="betfor", type="loo_pit") + ggtitle("rForest, student") + labs(caption = "A")
 
-p12<-pp_check(szz_mrf_brms, resp="betfor", type="loo_pit") + ggtitle("rForest, student")
+p12<-pp_check(szz_mrf_brms, resp="betfor", type="loo_pit") + ggtitle("rForest, student") + labs(caption = "B")
 
-p21<-pp_check(snn_mrf_brms, resp="cult", type="loo_pit") + ggtitle("Coca cultivation, negative binomial")
+p21<-pp_check(snn_mrf_brms, resp="cult", type="loo_pit") + ggtitle("Coca cultivation, negative binomial") + labs(caption = "C")
 
-p22<-pp_check(szz_mrf_brms, resp="cult", type="loo_pit") + ggtitle("Coca cultivation, zero-inflated")
+p22<-pp_check(szz_mrf_brms, resp="cult", type="loo_pit") + ggtitle("Coca cultivation, zero-inflated") + labs(caption = "D")
 
-p31<-pp_check(snn_mrf_brms, resp="conf", type="loo_pit") + ggtitle("Conflict, negative binomial")
+p31<-pp_check(snn_mrf_brms, resp="conf", type="loo_pit") + ggtitle("Conflict, negative binomial") + labs(caption = "E")
 
-p32<-pp_check(szz_mrf_brms, resp="conf", type="loo_pit") + ggtitle("Conflict, zero-inflated")
+p32<-pp_check(szz_mrf_brms, resp="conf", type="loo_pit") + ggtitle("Conflict, zero-inflated") + labs(caption = "F")
 
 ##save
-save.image("loo_pit_v9.RData")
+save.image("loo_pit_v10.RData")
 
 ##print
-pdf("loo_pit_plo_v9.pdf", h=9, w=6)
+pdf("loo_pit_plo_v10.pdf", h=9, w=6)
 multiplot(p11, p21, p31, p12, p22, p32, cols=2)
 dev.off()
