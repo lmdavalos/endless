@@ -37,7 +37,7 @@ Matrix
 
 5) conditional_v4 and smooth_v4.R process the Bayesian results and save their corresponding files.
 
-6) plot_summaries_v9.R, plot_statuc.R, plot_conditional_v5.R use already generated RData files to plot coefficients, GMRF smooths, and conditional effects.
+6) plot_summaries_v9.R, plot_static.R, plot_conditional_v5.R use already generated RData files to plot coefficients, GMRF smooths, and conditional effects.
 
 7) loo_pit_plo_v10.R generates and plots loo-pit simulations and requires both models to be compared.
 
