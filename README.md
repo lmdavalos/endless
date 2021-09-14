@@ -1,4 +1,4 @@
-# "Endless Grass Frontier: Pasture Expansion and Conflict Promoted by Coca and Fumigation Explain Deforestation in Colombia"
+# "Forests, coca, and conflict: Grass frontier dynamics and deforestation in the Amazon-Andes"
 
 
 Required R packages:
