@@ -1,5 +1,5 @@
 # "Forests, coca, and conflict: Grass frontier dynamics and deforestation in the Amazon-Andes"
-See: https://jied.lse.ac.uk/article/10.31389/jied.87/
+Published: https://jied.lse.ac.uk/article/10.31389/jied.87/
 
 Required R packages:
 reshape2
