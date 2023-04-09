@@ -33,7 +33,7 @@ Matrix
 
 3) piecewise_explore_v8.R generates piecewise SEM,
 
-4) sem_bet_v8nb.R and sem_bet_v8zi.R run Bayesian models, these run parallel chains and take <7 days in a cluster but 4 months on a mini-cluster.
+4) sem_bet_v8nb.R and sem_bet_v8zi.R run Bayesian models, these run parallel chains and take <7 days on a HPC cluster but 4 months on a mini-cluster.
 
 5) conditional_v4 and smooth_v4.R process the Bayesian results and save their corresponding files.
 
